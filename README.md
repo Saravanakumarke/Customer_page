@@ -20,7 +20,7 @@ This is a simple task of creating website for customer success-day
 
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-Demo app link [Link](https://customercontenthub.netlify.app/)
+Demo app link - [Link](https://customercontenthub.netlify.app/)
 
 ## Contact 
 
