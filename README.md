@@ -1,4 +1,4 @@
-## Simple Task app - using react and redux 
+## Simple Assignment - using react 
 
 This is a simple assignment of creating website for customer success-day
 
