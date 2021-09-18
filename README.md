@@ -1,6 +1,6 @@
 ## Simple Task app - using react and redux 
 
-This is a simple task of creating website for customer success-day
+This is a simple assignment of creating website for customer success-day
 
 
 ## Tech & API's
