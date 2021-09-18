@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+.copyright
+{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    background-color: #f1f1f1;
+    border: solid 1px #e6e6e6;
+    color: #666;
+    padding: 10px;
+    font-family:Montserrat ;
+    font-size: 16px;
+    bottom: 0;
+    line-height: 1.75;
+}
+@media screen 
+and (min-device-width: 120px) 
+and (max-device-width: 756px)
+{
+
+    .copyright .one
+    {
+        display: none;
+    }
+}

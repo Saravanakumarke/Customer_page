@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+.container
+{
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 500;
+}
+.navul
+{
+    display:flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+
+}
+.navul li
+{
+    padding: 15px 25px;
+    line-height: 1;
+    font-family: Montserrat ;
+    font-weight: 600;
+    color: #000;
+    cursor: pointer;
+}

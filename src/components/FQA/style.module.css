@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+.main
+{
+ background-color: rgba(243, 243, 243, 1);
+ margin-top: -6em;
+ position: relative;
+}
+.main p
+{
+    font-size: 40px;
+    font-family:Montserrat ;
+    padding-top: 2em;
+}
+.main p span
+{
+    border-bottom: 10px solid #000;
+    padding-bottom: 1px;
+}
+.EthfaqWrapper 
+{
+    background-color: rgba(243, 243, 243, 1);
+    display: grid;
+    grid-template-columns:10% 40% 40% 10%;
+    font-family:Montserrat ;
+    z-index: 100;
+    gap: 10px;
+}
+  .divident 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  .expandableCard {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .question {
+    border-top: 1px solid #3973E6;
+    width: 100%;
+    border-radius: 2px;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    
+  }
+  .answer {
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(102, 102, 102);
+  }
+  .rightSection {
+    color: rgb(28, 28, 225);
+    cursor: pointer;
+    font-weight: 400;
+  }
+  .moreData
+  {
+      display: none;
+  }
+  .moreDataopen
+  {
+      display: block;
+  }
+  .support
+  {
+    height: 3em;
+  }
+  @media screen 
+  and (min-device-width: 120px) 
+  and (max-device-width: 756px)
+  {
+    .EthfaqWrapper
+    {
+      display: flex;
+      flex-direction: column;
+    }
+  }

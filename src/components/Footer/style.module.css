@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+.main
+{
+ background-color: #fafafa;
+ font-family:Montserrat ;
+ margin-top: -55px;
+
+}
+footer
+{
+    margin-top: 50px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    gap: 80px;
+    padding-top: 2.25rem;
+}
+.main .leftside img
+{
+    width: 95px;
+    background-size: 95px;
+    height: 19px;
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+}
+.leftside .freshwork
+{
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.leftside .freshwork ul  .img
+{
+    list-style: none;
+}
+.leftside .freshwork ul  .one
+{
+    visibility: hidden;
+}
+
+.leftside .freshwork ul li
+{
+    font-size: .7875rem;
+    color: #666;
+    line-height: 2;
+}
+
+
+.rightside .freshwork ul  .name
+{
+    font-size: .95rem;
+    text-transform: uppercase;
+}
+.rightside .freshwork ul li
+{
+    font-size: .7875rem;
+    color: #666;
+    line-height: 2;
+    list-style: none;
+    cursor: pointer;
+}
+.events
+{
+    display: flex;
+    gap: 5em;
+}
+
+.events .eventname ul
+{
+    list-style: none;
+    border-left: 1px solid rgb(182, 179, 179);
+    cursor: pointer;
+
+}
+.events .eventname ul li:first-child
+{
+    font-size: .95rem;
+    text-transform: uppercase;
+    color: #666;
+}
+.events .eventname ul li
+{
+    font-size: .7875rem;
+    color: #666;
+    line-height: 2;
+    list-style: none;
+}
+
+.events .case ul
+{
+    list-style: none;
+    cursor: pointer;
+}
+.events .case ul li:first-child
+{
+    font-size: .95rem;
+    text-transform: uppercase;
+    color: #666;
+}
+.events .case ul li
+{
+    font-size: .7875rem;
+    color: #666;
+    line-height: 2;
+    list-style: none;
+}
+
+.events .contact ul
+{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin-left: -2.5em;
+    cursor: pointer;
+}
+.events .contact p
+{
+    font-size: .95rem;
+    text-transform: uppercase;
+    color: #666;
+}
+.events .contact ul li
+{
+    font-size: .7875rem;
+    color: #666;
+    line-height: 2;
+    list-style: none;
+}
+.events .contact ul .facebook:hover
+{
+  color: blue;
+}
+.events .contact ul .twitter:hover
+{
+  color: blue;
+}
+.events .contact ul .youtube:hover
+{
+  color: red;
+}
+.events .contact ul .linkedin:hover
+{
+  color: blue;
+}
+.events .contact ul .glassdoor:hover
+{
+  color: rgb(24, 226, 24);
+}
+.copyright
+{
+    position: relative;
+}
+
+@media screen 
+and (min-device-width: 120px) 
+and (max-device-width: 756px)
+{
+    footer
+    {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+    }
+    .events
+    {
+        display: flex;
+        flex-direction: column;  
+        gap: 1em;
+    }
+    .events .contact
+    {
+        margin-left: 3em;
+    }
+}
+@media screen 
+and (min-device-width: 756px) 
+and (max-device-width: 956px)
+{
+    .events
+    {
+        display: flex;
+        flex-wrap: wrap; 
+        gap: 1em;
+    }
+}

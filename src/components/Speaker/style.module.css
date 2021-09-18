@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+.container
+{
+    position: relative;
+
+}
+.bg
+{
+    width: 350px;
+    position: absolute;
+    right: 0px;
+    top: -275px;
+}
+.bg img 
+{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+.bgone
+{
+    width: 85%;
+    height: auto;
+    position: absolute;
+    top: -100px;
+    z-index: -1;
+}
+.bgone img 
+{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+.heading
+{
+    line-height: 1.28571429em;
+    font-weight: 700;
+    font-size: 1.9542857094rem;
+    margin-left: 2em;
+    font-family:Montserrat ;
+}
+.heading h2 span
+{
+    border-bottom: 10px solid #000;
+    padding-bottom: 1px;
+}
+.cardimg
+{
+    width: 235px;
+}
+.cardimg img
+{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+.content .name
+{
+    font-size: 20px;
+    color: #4d4d4d;
+    font-weight: 600;
+    text-align: center;
+    font-family:Montserrat ;
+}
+.content .po
+{
+    font-size: 14px;
+    color: #848484;
+    text-align: center;
+    font-family:Montserrat ;
+    margin-top: -10px;
+}
+.content .com
+{
+    font-size: 14px;
+    color: #848484;
+    font-family:Montserrat ;
+    margin-top: -10px;
+    text-align: center;
+}
+.content .linkimg 
+{
+    width: 32px;
+    text-align: center;
+    cursor: pointer;
+}
+.content .linkimg img
+{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: 8em;
+
+}
+.speakerlist
+{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card
+{
+    width: 300px;
+    position: relative;
+}
+@media screen 
+  and (min-device-width: 120px) 
+  and (max-device-width: 30.5rem)
+  {
+.heading
+{
+    margin-top: 5em;
+}
+  }
+
+  @media screen 
+  and (min-device-width: 1300px) 
+  and (max-device-width: 5288px)
+  {
+    .speakerlist
+    {
+        display: flex;
+        gap: 30px;
+        margin: 0 15%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+  }
